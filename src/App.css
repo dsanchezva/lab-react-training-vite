@@ -81,3 +81,65 @@
   width: 200px;
   height: auto;
 }
+
+.driverCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  margin: 10px;
+  color: white;
+  width: 400px;
+  border-radius: 10px;
+}
+.glassesContainer {
+  position: relative;
+  width: 50px;
+}
+.glassesImg img {
+  position: absolute;
+  width: 100px;
+  top: 50px;
+  left: 50px;
+}
+.likeButtons button {
+  width: 100px;
+  height: 50px;
+}
+.allNumbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 500px;
+}
+.singleNumber {
+  width: 98px;
+  height: 98px;
+  border: 1px solid;
+}
+
+.allProfiles-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.eachProfile-container img {
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-left: 20px;
+}
+.eachProfile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid;
+  width: 600px;
+}

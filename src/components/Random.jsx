@@ -3,7 +3,7 @@ function Random(props) {
     border: "1px solid",
     margin: "5px",
   };
-  let random = Math.floor(Math.random() * props.max);
+  let random = Math.floor(Math.random() * (props.max - props.min)) + props.min;
   return (
     <div style={style}>
       <p>

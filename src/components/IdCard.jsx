@@ -1,5 +1,4 @@
 function IdCard(props) {
-  console.log(props.birth);
   const date = JSON.stringify(props.birth);
   return (
     <div id="cardStyles">
